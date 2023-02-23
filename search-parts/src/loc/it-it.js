@@ -20,7 +20,7 @@ define([], function() {
                 DateTokensGroupName: "Date tokens",
                 Today: "Oggi",
                 Yesterday: "Ieri",
-                Tomorrow: "DOmani",
+                Tomorrow: "Domani",
                 OneWeekAgo: "Una settimana fa",
                 OneMonthAgo: "Un mese fa",
                 OneYearAgo: "Un anno fa"
@@ -343,7 +343,7 @@ define([], function() {
             FilterNoValuesMessage: "Nessun valore per i filtri impostati",
             OrOperator: "OR",
             AndOperator: "AND",
-            ComboBoxPlaceHolder: "Seleziona un valore",
+            ComboBoxPlaceHolder: "Seleziona o cerca un valore",
             UseAndOperatorValues: "Use an AND operator between values",
             UseOrOperatorValues: "Use an OR operator between values",
             UseValuesOperators: "Select operator to use between this filter values"
