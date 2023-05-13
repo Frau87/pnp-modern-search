@@ -3,7 +3,7 @@ define([], function() {
         Tokens: {
             SelectTokenLabel: "Select a token...",
             Context: {
-                ContextTokensGroupName: "Context tokens",
+                ContextTokensGroupName: "Token di contesto",
                 SiteAbsoluteUrl: "Site absolute URL",
                 SiteRelativeUrl: "Site server relative URL",
                 WebAbsoluteUrl: "Web absolute URL",
@@ -12,45 +12,45 @@ define([], function() {
                 InputQueryText: "Input query text"
             },
             Custom: {
-                CustomTokensGroupName: "Custom value",
-                CustomValuePlaceholder: "Enter a value...",
-                InvalidtokenFormatErrorMessage: "Please enter a supported token format using '{' and '}'. (ex: {Today})"
+                CustomTokensGroupName: "Valore personalizzato ",
+                CustomValuePlaceholder: "Inserire un valore...",
+                InvalidtokenFormatErrorMessage: "Inserisci un formato di token supportato utilizzando '{' and '}'. (ex: {Today})"
             },
             Date: {
-                DateTokensGroupName: "Date tokens",
+                DateTokensGroupName: "Token data",
                 Today: "Oggi",
                 Yesterday: "Ieri",
-                Tomorrow: "DOmani",
+                Tomorrow: "Domani",
                 OneWeekAgo: "Una settimana fa",
                 OneMonthAgo: "Un mese fa",
                 OneYearAgo: "Un anno fa"
             },
             Page: {
-                PageTokensGroupName: "Page tokens",
+                PageTokensGroupName: "Token di pagina",
                 PageId: "Page ID",
-                PageTitle: "Page Title",
-                PageCustom: "Other page column",
+                PageTitle: "Titolo di pagina",
+                PageCustom: "Altra colonna della pagina",
             },
             User: {
-                UserTokensGroupName: "User tokens",
-                UserName: "User Name",
+                UserTokensGroupName: "Token utente",
+                UserName: "Nome Utente",
                 Me: "Me",
-                UserDepartment: "User Department",
-                UserCustom: "User custom property"
+                UserDepartment: "Dipartimento",
+                UserCustom: "Custom property utente"
             }
         },
         General: {
             OnTextLabel: "On",
             OffTextLabel: "Off",
-            StaticArrayFieldName: "Array like field",
-            About: "About",
-            Authors: "Author(s)",
-            Version: "Version",
+            StaticArrayFieldName: "Campo di tipo Array",
+            About: "Informazioni",
+            Authors: "Autori",
+            Version: "Versione",
             InstanceId: "Web Part instance ID",
             Resources: {
-                GroupName: "Resources",
-                Documentation: "Documentation",
-                PleaseReferToDocumentationMessage: "Please refer to the official documentation."
+                GroupName: "Risorse",
+                Documentation: "Documentazione",
+                PleaseReferToDocumentationMessage: "Fare riferimento alla documentazione ufficiale"
             },
             Extensibility: {
                 InvalidDataSourceInstance: "The selected data source '{0}' does not implement the 'BaseDataSource' abstract class correctly. Some methods are missing.",
@@ -91,7 +91,7 @@ define([], function() {
             SameTabOpenBehavior: "Apri nel Tab corrente",
             NewTabOpenBehavior: "Apri in nuovo Tab",
             PageOpenBehaviorLabel: "Comportamento in apertura",
-            EmptyFieldErrorMessage: "Questo campo non può essere vuot",
+            EmptyFieldErrorMessage: "Questo campo non può essere vuoto",
             TagPickerStrings: {
                 NoResultsSearchMessage: "Nessun risultato",
                 SearchPlaceholder: "Cerca un valore..."
@@ -119,8 +119,8 @@ define([], function() {
                 QueryCultureLabel: "Language of search request",
                 QueryCultureUseUiLanguageLabel: "Usa lingua dell'interfaccia",
                 SelectedPropertiesFieldLabel: "Proprietà selezionate",
-                SelectedPropertiesFieldDescription: "SPecificare le prprità da recuperare dai risultati della ricerca.",
-                SelectedPropertiesPlaceholderLabel: "Sleziona proprietà",
+                SelectedPropertiesFieldDescription: "Specificare le prprità da recuperare dai risultati della ricerca.",
+                SelectedPropertiesPlaceholderLabel: "Seleziona proprietà",
                 HitHighlightedPropertiesFieldLabel: "Hit-highlighted properties",
                 HitHighlightedPropertiesFieldDescription: "Provide the list of managed properties to hit highlight (i.e. Department,UserName).",
                 TermNotFound: "(Term with ID '{0}' not found)",
@@ -344,14 +344,14 @@ define([], function() {
             OrOperator: "OR",
             AndOperator: "AND",
             ComboBoxPlaceHolder: "Seleziona un valore",
-            UseAndOperatorValues: "Use an AND operator between values",
-            UseOrOperatorValues: "Use an OR operator between values",
-            UseValuesOperators: "Select operator to use between this filter values"
+            UseAndOperatorValues: "Usa un operatore AND tra i valori",
+            UseOrOperatorValues: "Usa un operatore OR tra i valori",
+            UseValuesOperators: "Seleziona l'operatore da usare tra questi filtri"
         },
         SuggestionProviders: {
             SharePointStatic: {
-                ProviderName: "SharePoint Static search suggestions",
-                ProviderDescription: "Retrieve SharePoint static user defined search suggestions"
+                ProviderName: "Suggerimenti SharePoint Static search ",
+                ProviderDescription: "Recupera suggerimenti di ricerca statica definiti dall'utente"
             }
         }
     }
