@@ -20,7 +20,7 @@ define([], function() {
                 DateTokensGroupName: "Date tokens",
                 Today: "Oggi",
                 Yesterday: "Ieri",
-                Tomorrow: "DOmani",
+                Tomorrow: "Domani",
                 OneWeekAgo: "Una settimana fa",
                 OneMonthAgo: "Un mese fa",
                 OneYearAgo: "Un anno fa"
