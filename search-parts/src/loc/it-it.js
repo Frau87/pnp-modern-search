@@ -9,7 +9,7 @@ define([], function() {
                 WebAbsoluteUrl: "Web absolute URL",
                 WebRelativeUrl: "Web server relative URL",
                 WebTitle: "Web title",
-                InputQueryText: "Input query text"
+                InputQueryText: "Testo della query di input"
             },
             Custom: {
                 CustomTokensGroupName: "Valore personalizzato ",
@@ -27,7 +27,7 @@ define([], function() {
             },
             Page: {
                 PageTokensGroupName: "Token di pagina",
-                PageId: "Page ID",
+                PageId: "ID Pagina",
                 PageTitle: "Titolo di pagina",
                 PageCustom: "Altra colonna della pagina",
             },
@@ -46,22 +46,22 @@ define([], function() {
             About: "Informazioni",
             Authors: "Autori",
             Version: "Versione",
-            InstanceId: "Web Part instance ID",
+            InstanceId: "ID dell'istanza della Web Part",
             Resources: {
                 GroupName: "Risorse",
                 Documentation: "Documentazione",
                 PleaseReferToDocumentationMessage: "Fare riferimento alla documentazione ufficiale"
             },
             Extensibility: {
-                InvalidDataSourceInstance: "The selected data source '{0}' does not implement the 'BaseDataSource' abstract class correctly. Some methods are missing.",
-                DataSourceDefinitionNotFound: "The custom data source with key '{0}' was not found. Make sure the solution is correctly deployed to the app catalog and the manifest ID registered for this Web Part.",
-                LayoutDefinitionNotFound: "The custom layout with key '{0}' was not found. Make sure the solution is correctly deployed to the app catalog and the manifest ID registered for this Web Part.",
-                InvalidLayoutInstance: "The selected layout '{0}' does not implement the 'BaseLayout' abstract class correctly. Some methods are missing.",
-                DefaultExtensibilityLibraryName: "Default extensibility library",
-                InvalidProviderInstance: "The selected suggestions provider '{0}' does not implement the 'BaseSuggestionProvider' abstract class correctly. Some methods are missing.",
-                ProviderDefinitionNotFound: "The custom suggestions provider with key '{0}' was not found. Make sure the solution is correctly deployed to the app catalog and the manifest ID registered for this Web Part.",
-                QueryModifierDefinitionNotFound: "The custom queryModifier with key '{0}' was not found. Make sure the solution is correctly deployed to the app catalog and the manifest ID registered for this Web Part.",
-                InvalidQueryModifierInstance: "The selected custom queryModifier '{0}' does not implement the 'BaseQueryModifier' abstract class correctly. Some methods are missing."
+                InvalidDataSourceInstance: "L'origine dati selezionata '{0}' non implementa correttamente la classe astratta 'BaseDataSource'. Mancano alcuni metodi.",
+                DataSourceDefinitionNotFound: "Impossibile trovare l'origine dati personalizzata con chiave '{0}'. Verificare che la soluzione sia distribuita correttamente nel catalogo app e che l'ID manifesto sia registrato per questa Web Part.",
+                LayoutDefinitionNotFound: "Il layout personalizzato con chiave '{0}' non è stato trovato. Verificare che la soluzione sia distribuita correttamente nel catalogo app e che l'ID manifesto sia registrato per questa Web Part.",
+                InvalidLayoutInstance: "Il layout selezionato '{0}' non implementa correttamente la classe astratta 'BaseLayout'. Mancano alcuni metodi.",
+                DefaultExtensibilityLibraryName: "Extensibility library predefinita",
+                InvalidProviderInstance: "Il provider di suggerimenti selezionato '{0}' non implementa correttamente la classe astratta 'BaseSuggestionProvider'. Mancano alcuni metodi.",
+                ProviderDefinitionNotFound: "Impossibile trovare il provider di suggerimenti personalizzati con la chiave '{0}'. Verificare che la soluzione sia distribuita correttamente nel catalogo app e che l'ID manifesto sia registrato per questa Web Part.",
+                QueryModifierDefinitionNotFound: "Impossibile trovare il queryModifier con chiave '{0}'. Verificare che la soluzione sia distribuita correttamente nel catalogo app e che l'ID manifesto sia registrato per questa web part.",
+                InvalidQueryModifierInstance: "Il queryModifier selezionato '{0}' non implementa correttamente la classe astratta 'BaseQueryModifier'. Mancano alcuni metodi."
             },
             DateFromLabel: "Da",
             DateTolabel: "A",
@@ -96,7 +96,7 @@ define([], function() {
                 NoResultsSearchMessage: "Nessun risultato",
                 SearchPlaceholder: "Cerca un valore..."
             },
-            CurrentVerticalNotSelectedMessage: "The current selected vertical does not match with the ones associated for this Web Part ({0}). It will remains blank in display mode."
+            CurrentVerticalNotSelectedMessage: "Il verticale attualmente selezionato non corrisponde a quelli associati per questa web part ({0}). Rimarrà vuoto in modalità di visualizzazione."
         },
         DataSources: {
             SharePointSearch: {
